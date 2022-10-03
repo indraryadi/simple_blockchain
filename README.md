@@ -1,14 +1,14 @@
 # simple_blockchain
 
-##### install the requirement package
-pip install -r requirements.txt
+### install the requirement package
+    pip install -r requirements.txt
 
 ### run the service
 #### node 1
-python blockchain.py 5000
+    python blockchain.py 5000
 
 #### node 2
-python blockchain.py 5001
+    python blockchain.py 5001
 
 ### endpoint
 - [GET]/blockchain        : to check all block on node
