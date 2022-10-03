@@ -8,21 +8,25 @@ python blockchain.py 5000
 python blockchain.py 5001
 
 ### endpoint
-[GET]/blockchain        : to check all block on node
-[POST]/transaction/new  : to add new transaction that need to mine
+- [GET]/blockchain        : to check all block on node
+
+- [POST]/transaction/new  : to add new transaction that need to mine
 format data in json     : {
     "amount": 10,
     "recipient": "8460674bba154801b5be179b533640a9",
     "sender": "0"
 }
-[GET]/mine              : to mine the new transaction
-[POST]/nodes/add_nodes  : to add nodes to another nodes
+
+- [GET]/mine              : to mine the new transaction
+
+- [POST]/nodes/add_nodes  : to add nodes to another nodes
 format data in json     : {
         "nodes":[
             "http://127.0.0.1:5000"
         ]
 }
-[GET]/nodes/sync        : to sync the node or update the node
+
+- [GET]/nodes/sync        : to sync the node or update the node
 
 
 #### simulation
