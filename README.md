@@ -30,21 +30,21 @@ format data in json     : {
 
 
 #### simulation
-node 1: add new transaction -> mine -> view the blockchain
-node 2: view the blockchain
+- node 1: add new transaction -> mine -> view the blockchain
+- node 2: view the blockchain
 
-there will be different block between them 
-    node 1: 2 blocks
-    node 2: 1 block
+there will be different block between them: 
+    - node 1: 2 blocks
+    - node 2: 1 block
 
 to sync them:
-node 1: add node 2 using /nodes/add_nodes
-node 2: add node 1 using /nodes/add_nodes
+- node 1: add node 2 using /nodes/add_nodes
+- node 2: add node 1 using /nodes/add_nodes
 
-node 1: sync the node 1 using /nodes/sync
-node 2: sync the node 2 using /nodes/sync
+- node 1: sync the node 1 using /nodes/sync
+- node 2: sync the node 2 using /nodes/sync
 
 result:
-    node 1: 2 blocks
-    node 2: 2 blocks
+    - node 1: 2 blocks
+    - node 2: 2 blocks
 
